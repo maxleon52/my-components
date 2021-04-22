@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
 
+import Routes from '../../routes';
+
 import { Wrapper, Container } from './styles';
 
 const Layout = () => {
@@ -10,7 +12,9 @@ const Layout = () => {
       <Sidebar />
       <Container>
         <Header />
-        <main>Children aqui</main>
+        <main>
+          <Routes />
+        </main>
       </Container>
     </Wrapper>
   );

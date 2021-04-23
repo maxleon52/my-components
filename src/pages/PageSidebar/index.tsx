@@ -1,9 +1,22 @@
 import React from 'react';
+import Sidebar from '../../components/Sidebar';
 
-// import { Container } from './styles';
+import { Container, Content, Description } from './styles';
 
 const PageSidebar: React.FC = () => {
-  return <h1>page sidebars</h1>;
+  return (
+    <Container>
+      <h1>Sidebar simples</h1>
+
+      <Content>
+        <Sidebar />
+
+        <Description>
+          <p>Menu sidebar simples, sem props. Apenas listagem de item</p>
+        </Description>
+      </Content>
+    </Container>
+  );
 };
 
 export default PageSidebar;

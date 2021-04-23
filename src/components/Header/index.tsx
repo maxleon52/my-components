@@ -5,7 +5,7 @@ import { Container } from './styles';
 const Header = () => {
   return (
     <Container>
-      <h1>header</h1>
+      <h1>Componentes React para uso do dia a dia</h1>
     </Container>
   );
 };

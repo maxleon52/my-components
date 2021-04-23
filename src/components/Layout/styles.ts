@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   display: flex;
   grid-gap: 15px;
   width: 100%;
-  padding: 15px;
 `;
 export const Container = styled.div`
   /* border: 2px solid red; */

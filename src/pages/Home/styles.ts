@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div`
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
